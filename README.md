@@ -149,3 +149,37 @@ Completed academic project / minor project.
 ### Loss
 
 ![Training and Validation Loss](loss.png)
+
+
+## How to Run
+
+### 1. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Open the notebook
+
+Open:
+
+`IDP (2).ipynb`
+
+using Jupyter Notebook or JupyterLab.
+
+### 3. Prepare the dataset
+
+Download the TESS dataset separately and place it on your computer.
+
+Update the dataset path in the notebook to match the location on your computer.
+
+### 4. Run the notebook
+
+Run the notebook cells in order to:
+
+* Load the audio dataset
+* Extract MFCC features
+* Train the LSTM model
+* Evaluate the model
+* Visualize training and validation results
+* Predict an emotion from a sample audio file
