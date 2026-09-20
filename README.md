@@ -9,7 +9,7 @@ Speech Emotion Recognition (SER) is a machine learning task that identifies emot
 This project uses the **Toronto Emotional Speech Set (TESS)** dataset and extracts MFCC features from audio recordings. These features are then given to an LSTM-based neural network for emotion classification.
 
 ## Emotions
-
+``
 The model classifies speech into 7 emotion categories:
 
 * Angry
@@ -139,3 +139,13 @@ Possible improvements include:
 ## Project Status
 
 Completed academic project / minor project.
+
+## Results
+
+### Accuracy
+
+![Training and Validation Accuracy](accuracy.png)
+
+### Loss
+
+![Training and Validation Loss](loss.png)
